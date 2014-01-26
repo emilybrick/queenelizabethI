@@ -183,6 +183,8 @@ $blue: #6aceae;
         text-transform: uppercase;
         position:relative;
         top:20px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
         &:before, &:after {
             content: "";
             background-repeat: no-repeat;
@@ -192,11 +194,11 @@ $blue: #6aceae;
         }
         &:before {
             left:-20px;
-            background: url("../stylesheets/img/berry_left.png");
+            background: url("../stylesheets/img/berry_right.png");
         }
         &:after {
             right:-20px;
-            background: url("../stylesheets/img/berry_right.png");
+            background: url("../stylesheets/img/berry_left.png");
         }
     }
 }
@@ -242,7 +244,7 @@ $blue: #6aceae;
 
 .stages-main-content {
     padding: 0px 0px 40px 70px;
-    width: 990px;
+    width:80%;
     @include clearfix;
     position: relative;
     & .to-top {
