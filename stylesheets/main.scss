@@ -70,7 +70,7 @@ p {
 
 .citation {
     display: inline-block;
-    background-image: url("../stylesheets/img/citation-ribbon.png");
+    background-image: url("/stylesheets/img/citation-ribbon.png");
     background-repeat: no-repeat;
     width: 138px;
     height: 33px;
@@ -194,11 +194,11 @@ $blue: #6aceae;
         }
         &:before {
             left:-20px;
-            background: url("../stylesheets/img/berry_right.png");
+            background: url("/stylesheets/img/berry_right.png");
         }
         &:after {
             right:-20px;
-            background: url("../stylesheets/img/berry_left.png");
+            background: url("/stylesheets/img/berry_left.png");
         }
     }
 }
