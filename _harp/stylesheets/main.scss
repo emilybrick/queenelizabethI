@@ -138,10 +138,13 @@ $blue: #6aceae;
         }
         span {
             position: absolute;
-            top: -45px;
+            height: 80px;
+            top: -80px;
             right: -36px;
             white-space: nowrap;
-        }
+            line-height: 80px;
+            }
+
     }
 }
 
@@ -244,7 +247,7 @@ $blue: #6aceae;
 
 .stages-main-content {
     padding: 0px 0px 40px 70px;
-    width:80%;
+    width:990px;
     @include clearfix;
     position: relative;
     & .to-top {
